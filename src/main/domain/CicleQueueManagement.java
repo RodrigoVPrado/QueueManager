@@ -5,7 +5,7 @@ import java.util.Arrays;
 import main.exception.EmptyQueueException;
 import main.exception.FullQueueException;
 
-public class QueueManagement {
+public class CicleQueueManagement {
 
 	private String[] queue;
 	private int inicio, fim, size;
@@ -15,7 +15,7 @@ public class QueueManagement {
 
 	}
 
-	public QueueManagement(String[] filaCiruclar) {
+	public CicleQueueManagement(String[] filaCiruclar) {
 		this.queue = filaCiruclar;
 		this.inicio = this.fim = 0;
 		this.size = queue.length;
